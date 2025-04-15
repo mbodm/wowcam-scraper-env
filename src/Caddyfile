@@ -1,0 +1,3 @@
+wowcam.mbodm.com {
+	reverse_proxy puppeteer:8000
+}
