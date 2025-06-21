@@ -7,7 +7,7 @@ wowcam-puppeteer.mbodm.com {
 wowcam-transfersh.mbodm.com {
         reverse_proxy transfersh:8080
 	basicauth / {
-		transfersh $2a$14$E4/MpVjLFl7gGed/TZbgguScerQlba3BDGe88V/oeLlSyThW0RaSO
+		transfersh $2a$14$45wsjok893k12GQvpO6B6uaJGpOYcjQASFQrwdEcMtfUit/732j.K
 	}
         header {
                 Strict-Transport-Security "max-age=31536000;"
