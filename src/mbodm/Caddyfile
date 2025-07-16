@@ -1,15 +1,15 @@
-wowcam-puppeteer.mbodm.com {
+wowcam.mbodm.com {
 	reverse_proxy puppeteer:8000
 	header {
 		Strict-Transport-Security "max-age=31536000;"
 	}
 }
-wowcam-transfersh.mbodm.com {
-        reverse_proxy transfersh:8080
+transfersh.mbodm.com {
+	reverse_proxy transfersh:8080
 	basicauth / {
 		transfersh $2a$14$45wsjok893k12GQvpO6B6uaJGpOYcjQASFQrwdEcMtfUit/732j.K
 	}
-        header {
-                Strict-Transport-Security "max-age=31536000;"
-        }
+	header {
+		Strict-Transport-Security "max-age=31536000;"
+	}
 }
